@@ -1,5 +1,9 @@
 def caesar_cipher(str, offset)
     code = ""
+    
+    offset = 26 + offset if offset < 0
+    
+    
     str.each_char do |char|
         if char =~ /[a-z]/
 
@@ -20,5 +24,5 @@ def caesar_cipher(str, offset)
     code
 end
 
-
 puts caesar_cipher("What a string!", 5)
+puts caesar_cipher("Bmfy f xywnsl!", -5)
