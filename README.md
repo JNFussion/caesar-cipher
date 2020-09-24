@@ -1,1 +1,1 @@
-# caesar-cipher
+Implementation of the encryption technique Caesar's cipher.
