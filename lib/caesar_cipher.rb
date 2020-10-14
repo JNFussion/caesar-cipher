@@ -22,6 +22,3 @@ def caesar_cipher(str, offset)
   end
   code
 end
-
-puts caesar_cipher('What a string!', 5)
-puts caesar_cipher('Bmfy f xywnsl!', -5)
